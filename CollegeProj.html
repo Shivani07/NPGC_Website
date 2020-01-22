@@ -1,0 +1,353 @@
+﻿<html>
+<head>
+<title>
+	National P.G College
+</title>
+
+<script type="text/javascript">
+
+function addLoadEvent(func)
+{
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') 
+	{
+		window.onload = func;
+	}
+	else {
+		window.onload = function ()
+		{
+			if (oldonload) 
+			{
+				oldonload();
+			}
+			func();
+		}
+	}	
+}
+	
+addLoadEvent(function () 
+{
+	if (isNaN(localStorage.pagecount.valueOf())) 
+	{
+		localStorage.pagecount = 1005435 + 1;
+	}
+	if (localStorage.pagecount == 0) 
+	{
+		localStorage.pagecount = 1054324 + Number(localStorage.pagecount) + 1;
+	}
+	
+	else {
+		localStorage.pagecount = Number(localStorage.pagecount) + 1;
+	}
+		document.getElementById('visit').innerHTML = localStorage.pagecount;
+	
+};
+</script>
+
+<style type="text/css">
+h3{color:#DFA505 !important;}
+</style>	
+<style type="text/css">
+ui.tooltip {margin-left: 20px;color: blue;}
+ll {cursor: default;}
+span {color: red;}
+.tooltip{display: inline;position: relative;text-decoration: none;top: 0px;left: 4px;}
+.tooltip:hover:after{background: #333;background: rgba(0,0,0,.8);border-radius: 5px;top: -5px;color:Red;content: attr(alt);left: 90px;padding: 5px 15px;position: absolute;z-index: 98;width: 150px;}
+.tooltip:hover:before{border: solid;border-color: transparent black;border-width: 6px 6px 6px 0;bottom: 20px;content: "";left: 155px;position: absolute;z-index: 99;top: 3px;}
+.Highlight{border: solid 2px Red;}
+.Normal{border: solid 1px LightGray;}
+.abc{color:white !important;}
+.abc:hover{color:#399697 !important;}
+</style>
+
+</head>
+<body style="background-color:#232121;">
+<header>
+<div class="parentContainer" >
+<div id="socialButtons">
+	<a href="https://www.facebook.com" target="_blank" id="facebook">
+	<p>Like Us on Facebook </p>
+	<span>Facebook</span>
+</a>
+</div>
+</div>
+<div>
+<div id="menu">
+<section>
+	<a href="index.aspx"><img src="img/page-logo2.png" /></a>
+	<ul class="clearfix">
+	<li class="selected"><a href="default.aspx"><b>Home</b></a></li>
+	<li><a href="About-Us.aspx"><b>About Us</b></a>
+	</li>
+
+	<li><a href="Achievements.aspx"><b>Achievements</b></a></li>
+	<li><a href="Admission.aspx"><b>Admissions</b></a></li>
+	
+	
+	<li><a href="Courses.aspx"><b>Courses</b></a></li>
+	<li><a href="faculty.aspx"><b>Department</b></a></li>
+	</ul>
+</section>
+</div>
+
+<div id="tagline">
+<section>
+	<a href="#">“ An Autonomous College Of <strong>Lucknow University</strong> ”</a>
+</section>
+</div>
+
+<div id="info">
+<section>
+	<div style="background-color:#3a5795">
+	<img src="img/phone.png" />
+	<h2 style="color:darkorange">Accredited 'A' Grade By NAAC</h2>
+	<h2></h2>
+</div>
+	<span class="element leftElement" style="background-color:#3a5795"></span>
+	<span class="triangle">triangle</span>
+</section>
+</div>
+</div>
+</header>
+
+	<form name="aspnetForm" method="post" action="Index.aspx" id="aspnetForm">
+
+<div>
+	<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTExNTg2MjU0NWRkOl/9Rx5k6lL9ZVRTSKRnYM5R9oY=" />
+</div>
+	
+<div>	
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+</div>
+
+<div>
+<div id="contentBk">
+<div id="content" class="clearfix" style="height:950pt">
+<div id="homeSlider" class="clearfix flexslider">
+<div class="thumbs">r</div>
+
+	<ul class="slides">
+	<li data-thumb="img/slider/main-small6.jpg"><img src="img/slider/main-big6.jpg" ></li>
+	<li data-thumb="img/slider/main-small1.jpg"><img src="img/slider/main-big1.jpg" ></li>	
+	<li data-thumb="img/slider/main-small3.jpg"><img src="img/slider/main-big3.jpg" ></li>
+	<li data-thumb="img/slider/main-small4.jpg"><img src="img/slider/main-big4.jpg" ></li>
+	<li data-thumb="img/slider/main-small5.jpg"><img src="img/slider/main-big5.jpg" ></li>
+	</ul>
+	
+	<ul class="captions">
+	<li>
+		<h3 style="color:white !important;">Our <strong>College</strong></h3>
+	</li>
+	<li>
+		<h3 style="color:white !important;">A student <strong>performing</strong></h3>
+	</li>
+	<li>
+		<h3 style="color:white !important;">Honouring <strong>Our Students</strong></h3>
+	</li>
+	<li>
+		<h3 style="color:white !important;">Students Attending <strong>Seminar</strong></h3>
+	</li>
+	<li>
+		<h3 style="color:white !important;">Students Participating <strong>Cricket</strong></h3>
+	</li>
+	</ul>
+	
+</div>
+<div class="wrapper">	
+<div class="welcome column c-67 clearfix" style="width:570pt; float:left" >	
+<div class="cContent clearfix" style="width:120pt; float:left" >
+	<h3>Principal's Desk</h3>
+<div><br />
+	<img src="img/other/principalsir.jpg" alt=""/>
+</div>
+	<p style="color:white !important;">Today the role of youth in our country is of prime importance. The young generation should work hard to brighten the future of India by . . . <a href="principal_desk.aspx" class="abc"> Read more</a></p>
+</div>
+
+<div class="event column c-67 clearfix" style="margin-top:-17pt; width:400pt; float:right">
+	<h3>Seminars & Workshops</h3>
+	
+<div class="cContent">
+	<iframe src="Medha_Slider/Medha_Slider.html" style="height:350pt;width:490pt; right:50pt;position:relative; overflow-x:hidden; overflow-y:hidden; "></iframe>
+</div>
+</div>
+</div>
+	
+<div class="links column c-33 clearfix" style="margin-top:10pt; width:190pt">
+	<h3 style="color:red !important;">Quick Links</h3>
+
+	<ul class="cContent clearfix">
+	<li><a href="Inter.aspx" class="abc">Entrance Result-2015</a></li>
+	<li><a href="category.aspx" class="abc">Result-2015</a></li>	
+	<li><a href="http://npc.naimisharanya.in/" class="abc">PG Admission step-2</a></li>
+	<li><a href="Alumni.aspx" class="abc">Alumnini</a></li>
+	<li><a href="sports.aspx" class="abc">Sports</a></li>
+	<li><a href="hostel.aspx" class="abc">Hostel</a></li>
+	<li><a href="Library.aspx" class="abc">Library</a></li>
+	<li><a href="Ncc.aspx" class="abc">National Cadet Corps.</a></li>
+	<li><a href="canteen.aspx" class="abc">Canteen</a></li>
+	<li><a href="Alumni.aspx" class="abc">Alumni</a></li>
+	<li><a href="#" class="abc">Tender Notice</a></li>
+	</ul>
+</div>
+	
+<div class="clear"></div>
+<div class="tour column c-33 clearfix" style="margin-top:-180pt; ">
+	<h3>Campus tour</h3>
+<div class="arrows"></div>
+<div class="cContent clearfix rotator">
+<div class="cContent" style="margin-top:-10pt;">	
+	<iframe src=" https://www.youtube.com/embed/XO_ZDst5bUU" style="height:150pt;width:250pt; position:relative; "></iframe>
+</div>
+</div>
+</div>
+
+<div class="news column c-33 clearfix" style="margin-top:-180pt;height:410px; ">
+<h3>News & Events</h3>
+	<iframe src="review.aspx" style="height:230px; width:235pt; position:relative; left:-10pt; overflow-x:hidden; overflow-y:hidden;"></iframe>
+</div>
+
+<div class="links column c-33 clearfix" style="width:196pt;margin-top:-180pt; float:right">
+	<h3 style="color:red !important;">Student Support</h3>
+
+	<ul class="cContent clearfix">
+	<li><a href="Syllabus.aspx" class="abc">Syllabus</a></li>
+	<li><a href="Scholarships.aspx" class="abc">Scholarships</a></li>
+	<li><a href="http://npgclko.org/category.aspx" class="abc">Result</a></li>
+	<li><a href="placement.aspx" class="abc">Placements</a></li>
+	<li><a href="examination.aspx" class="abc">Examination</a></li>	
+	</ul>
+</div>
+
+<div class="links column c-33 clearfix" style="width:500pt; height:300pt; float:left; margin-top:-100pt">	
+<div style="width:196pt; float:left;">
+
+	<h3>Academic Calendar</h3>
+
+	<div class="arrows"></div>
+	<div class="cContent clearfix rotator">
+	<div class="cContent">
+		<iframe src="small_cal.aspx" style="height:200pt;width:170pt; position:relative; overflow-x:hidden; "> </iframe>
+		<a href="calendar.aspx" class="abc">Show All </a>
+	</div>
+	</div>
+	</div>
+
+	<div style="width:196pt; float:right;">
+		<h3>Gallery</h3>
+	<div class="arrows"></div>
+	<div class="cContent clearfix rotator">
+	<div class="cContent">
+		<a href="gallery.aspx"><img id="ctl00_ContentPlaceHolder1_Image3" src="img/pg.jpg" style="border-width:0px;" /></a>
+	
+	</div>
+	</div>
+	</div>
+</div>
+		
+<div class="links column c-33 clearfix" style="width:196pt; float:right; margin-top:-100pt">	
+	<h3 style="color:red !important;">Learning Centre</h3>
+
+	<ul class="cContent clearfix">	
+	<li><a href="http://www.ignou.ac.in"><img id="ctl00_ContentPlaceHolder1_Image1" src="img/ignou.jpg" style="border-width:0px;vertical-align:top" /></a></li>
+	<li> <a href="http://www.uprtou.ac.in"><img id="ctl00_ContentPlaceHolder1_Image2" src="img/uprtou.jpg" style="border-width:0px;" /></a> </li>
+	</ul>
+</div>	
+</div>
+
+<div class="clear"></div>
+<div class="clear"></div>
+</div>
+
+<div class="cContent" style="margin-left:-10pt;">
+	<a href="calendar.aspx"><iframe src="index.aspx" style="height:80pt; width:1020pt;position:absolute; margin-top:20pt; overflow-x:hidden; overflow-y:initial; margin-left:0pt" ></iframe></a>
+</div>
+</div>
+</div>
+	
+</form>
+	
+	<!-- FOOTER -->
+	
+	<footer >
+	
+	
+	<div class="stripe clearfix" >
+	<div class="twitter">
+	<img src="img/twitter.png" alt="" /><div class="twitterList" data-user="rubenbristian"></div>
+	</div>
+	</div>
+	
+	<div class="mail">
+	<div>
+	<div class="mailInfo" style="background-color:#3a5795; margin-top:10pt" >
+	<div>
+	<h3 style="color:white !important;">Visitors</h3>
+	<label id="visit"></label>
+	
+	
+	
+	
+	</div>
+	</div>
+	<span class="triangle">triangle</span> <span class="element rightElement" style="background-color:#3a5795"></span> </div>
+	</div>
+	
+	<div id="footerContent" style="background-color:#34393c" >
+	<section>
+	<div class="clearfix">
+	
+	<div class="contact column c-30 clearfix ">
+	<h3 style="color:white !important;">Review</h3>
+	<input name="ctl00$Text1" type="text" id="ctl00_Text1" value="Name" />
+	<input name="ctl00$Text2" type="text" id="ctl00_Text2" value="Email" />
+	<textarea name="ctl00$Textarea1" id="ctl00_Textarea1">Message</textarea>
+	
+	<input name="ctl00$submit1" type="submit" id="ctl00_submit1" class="submit" value="Submit" />
+	</div>
+	
+	<div class="links column c-30 clearfix ">
+	<h3 style="color:white !important;">Recent Posts</h3>
+	<ul>
+	<li><a>Annual Sports Day</a></li>
+	<li><a>Independance Day</a></li>
+	<li><a>Workshop On Swine Flu</a></li>
+	<li><a>Seminar On Choice Based Credit System & Examination Reform</a></li>
+	</ul>
+	</div>
+	
+	<div class="contact column c-30 clearfix ">
+	<h3 style="color:white !important;">Contact Form</h3>
+	<input name="ctl00$name" type="text" id="ctl00_name" value="Name" />
+	<input name="ctl00$mail" type="text" id="ctl00_mail" value="Email" />
+	<textarea name="ctl00$message" id="ctl00_message">Message</textarea>
+	
+	<input name="ctl00$submit" type="submit" id="ctl00_submit" class="submit" value="Submit" />
+	</div>
+	</div>
+	<div id="bottomFooter">
+	<p>© 2015 National P.G College</p>
+	<div>
+	<ul id="social" >
+	
+	<li><a href="https://www.facebook.com/pages/National-PG-College/262926160396928" target="_blank" id="finalFacebook">facebook</a></li>
+	
+	</ul>
+	<ul id="legal">
+	<li><a>Privacy Policy</a></li>
+	<li><a>Terms &amp; Condition</a></li>
+	</ul>
+	</div>
+	</div>
+	</section>
+	</div>
+	</footer>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/scripts.js"></script>
+	
+	</body>
+	</html>
+	
+	

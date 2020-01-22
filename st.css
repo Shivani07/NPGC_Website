@@ -1,0 +1,194 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.window{
+    background-attachment: fixed;
+    margin: 0px 0px;
+    width: 1400px;
+    height:1000px;
+    background-image:url(background/PSX_20160403_171449.jpg);
+    background-color: grey;
+}
+.gr{
+    background-color: floralwhite;
+    text-align: center;
+    color: black;
+    font-family: Arial Black;
+    font-style: italic;
+    font-size: 25px;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    float: left;
+    background-repeat: no-repeat;
+    border-style: groove;
+    border-left: 140px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#title{ 
+    width: 1100px;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    border-left: 25px;
+    border-top: 10px;
+    background-repeat: no-repeat;
+    border-style: double solid black;
+    border-radius: 25px;
+    background-color:white;
+}
+
+a{
+    text-decoration: none;
+}
+.mid{
+    width: auto;
+    height:750px;
+    border-left: 5px;
+    border-right: 5px;
+}
+
+
+#main{
+    
+    width: 800px;
+    height: 700px;
+    float: left;
+    background-color: rgb(35,33,33);
+    border: solid thick black;
+    margin-top: 10px ;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family:sans-serif;
+    color: white;
+    
+}
+#main img{
+    margin-top: 40px;;
+    width: 500px;
+    height: 600px;
+}
+
+img{
+    height: 99.9%;
+    width: 99.9%;
+}
+#princ{
+    height:300px;
+    width: 600px;
+}
+#princ img{
+    margin-top: 0px;
+    margin-left: 2px;
+    margin-right: 20px;
+    height: 220px;
+    width: 250px;
+}
+#side{
+    width: 175px;
+    height:700px;
+    float: left;
+    border-left:5px;
+    border-top: 20px;
+    background-color: transparent;
+    margin: 10px 0 0 25px;
+}
+#side ul li a:hover{
+    color: goldenrod;
+    background-color:#140505;
+    text-decoration: none;
+}
+#side ul li{
+    margin-top: 20px;
+    font-size:25px;
+    display: block;
+    line-height: 90px;
+    text-decoration: none;
+    text-align: center;
+}
+#side ul li a{
+    color: wheat;
+    display: block;
+    background-color:black;
+}
+
+.quick{
+    float: left;
+    width: 250px;
+    height:700px;
+    border-left:5px;
+    background-color: transparent;
+    margin: 10px 0 0 10px;
+    border-style: dashed;
+}
+.quick ul li a:hover{
+    font-family: Arial black;
+    text-transform:uppercase;
+    text-emphasis-style:double-circle;
+    color:  #800000;    
+    text-decoration: none;
+}
+.quick ul li a{
+    color: seashell;
+}
+.quick ul li{
+    border-top: 5px;
+    margin-top: 2px;
+    font-size:25px;
+    line-height: 40px;
+    list-style: none;
+    text-align: center;
+    
+}
+.quick ul ul li{
+    margin-top: 2px;
+    font-size:20px;
+    font-family: cursive;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    border-style:hidden;
+}
+.Dl{
+    width: 205px;
+    height: 65px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.headL{
+    background-color: darkgrey;
+    border-radius: 40px;
+}
+
+.menu{
+    width:240px;
+    margin-right: 0px;
+}
+.menublock{
+    border-color: black;
+    border-radius: 25px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-right: 5px;
+    border-left: 5px;
+    border-style: dotted;
+}
+.menublock:hover{
+    background-color:black;
+    border-style: groove;
+    border-width:thin;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    
+    -webkit-transition: background-color 0.3s ease-in;
+    -moz-transition: background-color 0.3s ease-in;
+    -o-transition: background-color 0.3s ease-in;
+    -ms-transition: background-color 0.3s ease-in;
+}
+
